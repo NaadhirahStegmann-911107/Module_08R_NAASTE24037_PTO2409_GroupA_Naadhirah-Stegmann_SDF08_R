@@ -6,13 +6,14 @@
     <title>Footer Example</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#374151]">
         <div class="container">
             <footer class="bg-[#659f8f] dark:bg-[#1F2937]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid grid-cols-1 gap-6 sm:grid-col-2 sm:gap-y-10 lg:grid-cols-4">
+                <div class="container px-6 py-12 mx-1.5">
+                    <div class="grid grid-cols-1 gap-6 sm:grid-col-2 sm:gap-y-10 lg:grid-cols-4 place-items-center">
                         <div class="sm:col-span-2">
                             <h1 class="pb-6 text-xl font-semibold tracking-tight text-[#1F2937] xl:text-2xl dark:text-white" >Subscribe to our newsletter for updates.</h1>
                             <div class="flex space-x-4">
@@ -42,9 +43,20 @@
                     
                     <hr class="my-6 border-[#d86943]">
                     
-                    <div class="flex">
-                        <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                    <div class="flex items-center justify-around">
+                        <a class="pb-8" href="#">
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="Codespace logo with a triangle as the letter 'a'.">
+                        </a>
+                        <a class="dark:bg-contain dark:bg-[#d86943]" href="https://instagram.com/" target="_blank" alt="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="dark:bg-contain dark:bg-[#d86943]"href="https://facebook.com/" target="_blank" alt="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="dark:bg-contain dark:bg-[#d86943]"href="https://www.youtube.com/" target="_blank" alt="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        <a class="dark:bg-contain dark:bg-[#d86943]"href="https://www.linkedin.com/company/codespaceza" target="_blank" alt="linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </div>
     </footer>
